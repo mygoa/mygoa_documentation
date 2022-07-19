@@ -20,7 +20,7 @@ https://dev.mysql.com/downloads/installer/
 
 Installation de git et de maven
 ------------
-Ces outils permettront de garder le porjet à jour. 
+Ces outils permettront de garder le projet à jour. 
 
 Téléchargement du repo github
 ------------
