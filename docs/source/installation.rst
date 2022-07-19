@@ -17,3 +17,19 @@ Installation d'une base de données Mysql
 Pour fonctionner, les différents serveurs ont besoin d'une base de données MYSQL sur le port 3306, il faudra créer une base de données "joboffer"
 Pour régler l'accès à cette bdd, aller dans le fichier configuration.properties. Il faudra y configurer l'identifiant et le mot de passe de la base de données. 
 https://dev.mysql.com/downloads/installer/
+
+Installation de git et de maven
+------------
+Ces outils permettront de garder le porjet à jour. 
+
+Téléchargement du repo github
+------------
+Utilisez git clone avec les repositories voulues, ainsi que le token github données lors de votre arrivée.
+
+Installation des dépendances avec Maven
+------------
+Une fois dans le dossier du projet, faire:
+
+.. code-block:: console
+
+  mvn compile
